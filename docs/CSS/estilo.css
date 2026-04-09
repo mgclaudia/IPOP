@@ -1,9 +1,11 @@
 body{
-    background-image: url("../imagenes/Fondo/vecteezy_cyber-circuit-future-technology-concept-background_8651157.jpg");
+    background-image: url("../../imagenes/Fondo/vecteezy_cyber-circuit-future-technology-concept-background_8651157.jpg");
 }
+
 .principal{
     background-color: white;
     margin: 20px;
+    padding: 20px;
 }
 p{
     margin: 5px;
@@ -26,6 +28,7 @@ h2{
     padding: 5px;
     text-decoration: none;
 }
+/*Pie de pagina*/
 .bloquepie{
     background-color: black;
     padding: 10px;
@@ -37,3 +40,18 @@ h2{
     text-decoration: none;
 
 }
+.contenedorImagenMapa {
+    display: flex;             /* pone los elementos en fila */
+    flex-wrap: wrap;           /* permite que bajen si la pantalla es pequeña */
+justify-content: center;
+align-items:center; 
+}
+.contenedorImagenMapa iframe,
+.contenedorImagenMapa img{
+margin: 20px;
+width:600px;
+    height:450px;
+}
+
+
+
